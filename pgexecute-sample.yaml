@@ -1,0 +1,4 @@
+connection: postgres://pqgotest:password@localhost/pqgotest?sslmode=verify-full
+files:
+  in: .\
+  out: executed\

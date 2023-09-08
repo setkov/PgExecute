@@ -7,7 +7,8 @@ import (
 )
 
 type Config struct {
-	Files struct {
+	Connection string // postgresql connection string
+	Files      struct {
 		In  string // input dir path
 		Out string // output dir path
 	}
