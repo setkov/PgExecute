@@ -4,12 +4,10 @@ import (
 	"log"
 )
 
-const configFileName string = "pgexecute.yaml"
-
 func main() {
 
 	//	read configuration
-	config, err := NewConfig(configFileName)
+	config, err := NewConfig()
 	if err != nil {
 		log.Fatal(err)
 	}
