@@ -20,7 +20,7 @@ func NewConfig() (*Config, error) {
 	if len(os.Args) > 1 {
 		fileName = os.Args[1]
 	}
-	log.Printf("Read configuration from file: %v", fileName)
+	log.Printf("read configuration from file: %v", fileName)
 
 	buf, err := os.ReadFile(fileName)
 	if err != nil {
@@ -33,6 +33,6 @@ func NewConfig() (*Config, error) {
 		return nil, err
 	}
 
-	log.Printf("Configuration: %v", config)
+	log.Printf("configuration: %v", config)
 	return &config, nil
 }
