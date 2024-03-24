@@ -1,6 +1,6 @@
 # PgExucute
 
-Tool for execute sql scripts fro Postgre Sql database:
+Tool for execute sql scripts in Postgre Sql database:
 1. connect to the database
 2. sequentially (in alphabetical order) execute sql scripts from the input folder
 3. the executed script is transferred to the output folder
